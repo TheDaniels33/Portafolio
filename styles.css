@@ -1,0 +1,217 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header img{
+    width: 80px; /* Ajusta el ancho según tus necesidades */
+    height: 80px;
+}
+.izq {
+    display: flex;
+    align-items: center;
+}
+
+.izq h1 {
+    margin-right: 15px; /* Espacio entre el h1 y el logo (ajusta según necesites) */
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    max-height: 80px; /* Ajusta el tamaño máximo del logo según tus necesidades */
+    vertical-align: middle; /* Centra la imagen verticalmente */
+}
+
+.nav-menu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-menu li {
+    margin-right: 20px;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 1s ease;
+}
+
+
+
+#inicio {
+    margin: 0px;
+    text-align: left;
+    background-image: url('Widows\ 11\ wallpaper’s.jpg') ;
+    background-size: 100% 100%; /* Ajusta el tamaño de la imagen para cubrir todo el contenedor */
+    background-position: center; /* Centra la imagen */
+    color: #fff; /* Color del texto en la sección de inicio */
+    padding: 20px; 
+    height: 100vh; /* Ajusta la altura del contenedor en relación con el 80% del tamaño de la ventana */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#inicio section{
+    display: flex;
+    align-items: center;
+}
+
+.Presentacion {
+    display: flex;
+    align-items: center; /* La primera columna se ajusta al contenido, la segunda ocupa el resto del espacio */
+    width: 100%;
+}
+
+
+.texto {
+    flex: 1;
+    font-size: 25px;
+}
+
+.texto p{
+    margin: 0;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+.contenedor_principal{
+    background-color: #333;
+    margin-bottom: 0;
+    width: 100%;
+    
+}
+
+
+.Acerca_de_mi{
+    padding: 20px;
+    color: #fff;
+    width: 80%;
+    
+}
+
+.Acerca_de_mi h2{
+    text-decoration: underline;
+    text-decoration-color: #333;
+    text-decoration-style: solid;
+    color: #333;
+}
+
+
+section {
+    flex:0 0 calc(30% - 20px);
+    width: 100%;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+
+h2 {
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+
+.content-container {
+    display: flex;
+    justify-content: center; /* Centra el contenido horizontalmente */
+}
+
+#skills {
+    text-align: center;
+    color: #fff;
+    width: 100%;
+}
+
+.skill {
+    width: 100%;
+}
+
+.skill h2 {
+    margin-bottom: 70px;
+}
+
+.skill img {
+    max-height: 120px; /* Ajusta el tamaño máximo del logo según tus necesidades */
+    vertical-align: middle; /* Centra la imagen verticalmente */
+}
+
+.skill ul{
+    list-style-type: none;
+    padding: 0;
+    display: flex; /* Utiliza flexbox para alinear horizontalmente los elementos de la lista */
+    
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+}
+
+.skill li {
+    display: flex; /* Utiliza flexbox para alinear horizontalmente la imagen y el texto */
+    align-items: center; /* Centra verticalmente los elementos dentro del contenedor flex */
+    margin: 0 20px 10px 0;
+}
+
+.skill li img {
+    margin-bottom: 10px;
+}
+
+.skill li div {
+    display: flex;
+    flex-direction: column; /* Coloca la imagen arriba del texto */
+    align-items: center; /* Centra horizontalmente el contenido del div */
+    margin-left: 10px;
+}
+
+
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: auto;
+    width: 100%;
+    
+}
+
+.logo{
+    font-size: 24px;
+    
+}
